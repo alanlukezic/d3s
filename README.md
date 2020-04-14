@@ -66,5 +66,8 @@ python run_training.py segm segm_default
 ## Pytracking
 This is a modified version of the python framework pytracking based on **PyTorch**. We would like to thank the authors Martin Danelljan and Goutam Bhat for providing such a great framework.
 
+## Video
+Check out the [video](https://www.youtube.com/watch?v=E3mN_hCRHu0) with tracking and segmentation results of the D3S tracker.
+
 ## Contact
 * Alan Lukežič (email: alan.lukezic@fri.uni-lj.si)
