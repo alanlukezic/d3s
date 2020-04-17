@@ -57,7 +57,8 @@ We provide a VOT Matlab toolkit integration for the D3S tracker. There is the `t
 
 #### Training the network
 The D3S is pre-trained for segmentation task only on the YouTube VOS dataset. Download the VOS training dataset (2018 version) and copy the files `vos-list-train.txt` and `vos-list-val.txt` from `ltr/data_specs` to the `train` directory of the VOS dataset. 
-Set the `vos_dir` variable in `ltr/admin/local.py` to the VOS `train` directory on your machine.
+Set the `vos_dir` variable in `ltr/admin/local.py` to the VOS `train` directory on your machine. 
+Download the bounding boxes from [this link](http://data.vicos.si/alanl/d3s/rectangles.zip) and copy them to the sequence directories.
 Run training by running the following command:
 ```bash
 python run_training.py segm segm_default
